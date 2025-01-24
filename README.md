@@ -6,6 +6,7 @@ I am so grateful for the chance to work through these phases to learn to cloud!
 Notes along the way: 
 
 Day 1: 
+
 Getting familiar with Git and how it works was difficult, to say the least. Part of the problem was the technical difficulties that I encountered. 
 
 First, Github Desktop was wanting me to use ATOM as my text editor, which I learned through some research was incompatible as it was sunsetted by Git a couple years back. 
