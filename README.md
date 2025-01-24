@@ -2,7 +2,7 @@
 These are my notes that I take on my journey to learn to cloud! Thank you so much to @madebygps and @rishabkumar7 for all your hard work in setting this up. I am so grateful for the chance to work through these phases.
 
 
-# Day 1:
+## Day 1:
 
 Getting familiar with GitHub and how it works is difficult, to say the least. I am thankful that I have had at least some experience in the command line from my Google IT Support Specialist certification. Part of the problem was the technical difficulties that I encountered. Here is a description of how I worked through some of these problems:
 
