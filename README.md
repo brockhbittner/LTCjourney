@@ -2,7 +2,7 @@
 These are my notes that I take on my journey to learn to cloud! Thank you so much to @madebygps and @rishabkumar7 for all your hard work in setting this up. I am so grateful for the chance to work through these phases.
 
 
-[**Day 1:**]
+<u> **Day 1:**
 
 Getting familiar with Git and how it works was difficult, to say the least. Part of the problem was the technical difficulties that I encountered. Here is a description of how I worked through some of these problems:
 
