@@ -1,4 +1,13 @@
 # Learn to Cloud Challenge - Brock Bittner
+
+My name is Brock Bittner, I am an aspiring IT Support Specialist at the moment and an aspiring Cloud Engineer in the long term! 
+
+You can find me on linkedin: https://www.linkedin.com/in/brock-bittner-657020198/
+
+
+
+
+
 These are my notes that I take on my journey to learn to cloud! Thank you so much to @madebygps and @rishabkumar7 for all your hard work in setting this up. I am so grateful for the chance to work through these phases.
 
 
