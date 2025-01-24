@@ -1,4 +1,4 @@
 # LTCChallengejourney
 Learn to Cloud Challenge Journey
 
-This is a test! 
+I am so grateful for the chance to work through these phases to learn to cloud! 
