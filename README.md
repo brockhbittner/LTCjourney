@@ -21,28 +21,6 @@ xcrun: error: invalid active developer path (/Library/Developer/CommandLineTools
 missing xcrun at: /Library/Developer/CommandLineTools/usr/bin/xcrun
 ```     
 
-Set multiple lines of code in fenced code blocks.
-
-```
-action: function(ctx) {
-    workflow.check(!ctx.issue.isChanged('votes'), workflow.i18n('Voting for a resolved issue is not allowed.'));
-},
-```
-
-The following code block uses syntax highlighting for Haskell:
-```hs
--- Point-free style
-fib :: Integer -> Integer
-fib = (fibs !!)
-where fibs = 0 : scanl (+) 1 fibs
-
--- Explicit
-fib :: Integer -> Integer
-fib n = fibs !! n
-where fibs = 0 : scanl (+) 1 fibs
-```
-
-
 > So I did some research on this and found that I needed to install some command line tools. I researched the command to initiate the download and copied it into VSCode: `xcode-select --install`
 
 > Viola! 
