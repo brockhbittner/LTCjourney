@@ -16,7 +16,8 @@ Getting familiar with GitHub and how it works is difficult, to say the least. I 
 > Then, I discovered VSCode and got that installed. However, the changes I was making were not showing up in GitHub for me to commit and push. After some reasearch I discovered the problem was that autosave was turned off. So in the VSCode settings I turned autosave to "on Focus Change." Now, whenever I click off VSCode to GitHub desktop, it automatically recognizes the changes that I have made. So problem solved! 
 
 > But not so fast! I then went to continue working through [Topic 1: Version Control](https://learntocloud.guide/phase1/versioncontrol) and I copied `"git clone https://github.com/rishabkumar7/ltc-labs"` into VSCode and received the following error: 
->```markdown
+>
+```markdown
 "xcrun: error: invalid active developer path (/Library/Developer/CommandLineTools), 
 missing xcrun at: /Library/Developer/CommandLineTools/usr/bin/xcrun"
 ``` 
