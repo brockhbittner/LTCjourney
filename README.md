@@ -19,7 +19,21 @@ Getting familiar with GitHub and how it works is difficult, to say the least. I 
 ```
 xcrun: error: invalid active developer path (/Library/Developer/CommandLineTools), 
 missing xcrun at: /Library/Developer/CommandLineTools/usr/bin/xcrun
-``` 
+```     
+
+Start an indented code block following a paragraph with a blank line and at least four spaces of indentation:
+
+    This is a code block.
+
+    Blank lines between indented lines do not end the code block.
+
+    Here is some HTML:
+        <div class="footer">
+             2009—2017 JetBrains · All rights reserved
+        </div>
+This line of text is not indented. It ends the code block and starts a new paragraph.
+
+
 > So I did some research on this and found that I needed to install some command line tools. I researched the command to initiate the download and copied it into VSCode: `xcode-select --install`
 
 > Viola! 
