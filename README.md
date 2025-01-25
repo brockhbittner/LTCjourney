@@ -38,10 +38,12 @@ I tried installing Terraform but was unable to. The CLI was not recognizing the 
 
 I then ran the following commands as instructed: 
 - Run these commands in your terminal to add Homebrew to your PATH:
+    ```markdown
     echo >> /Users/brockbittner/.zprofile
     echo 'eval "$(/opt/homebrew/bin/brew shellenv)"' >> /Users/brockbittner/.zprofile
     eval "$(/opt/homebrew/bin/brew shellenv)"
-- Run brew help to get started
+    ```
+- Run `brew help` to get started
 
 I was then able to copy the following Terraform download command into the CLI and download it:
 ```markdown
