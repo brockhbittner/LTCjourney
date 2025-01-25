@@ -27,7 +27,7 @@ I was able to read through the [Microsoft document about Markdown](https://learn
 
 I learned a lot from reading the [Command Line for Beginners article](https://www.freecodecamp.org/news/command-line-for-beginners/). I also got the AWS CLI downloaded, which means I am on to [Topic 3: Infrastructre as Code](https://learntocloud.guide/phase1/iac)!
 
-I tried installing Terraform but was unable to. The CLI was not recognizing the `brew` command, so I did some research and found that I needed to download [Homebrew](https://brew.sh/) -- a mac(os) or Linux package manager. I then installed it using the CLI by copying: `/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"`. I was then able to copy the Terraform download command into the CLI and download it
+I tried installing Terraform but was unable to. The CLI was not recognizing the `brew` command, so I did some research and found that I needed to download [Homebrew](https://brew.sh/) -- a mac(os) or Linux package manager. I then installed it using the CLI by copying: ```/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"```. I was then able to copy the Terraform download command into the CLI and download it
 ```markdown
 brew tap hashicorp/tap 
 brew install hashicorp/tap/terraform
