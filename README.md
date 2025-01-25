@@ -36,12 +36,18 @@ I tried installing Terraform but was unable to. The CLI was not recognizing the 
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 ``` 
 
+I then ran the following commands as instructed: 
+- Run these commands in your terminal to add Homebrew to your PATH:
+    echo >> /Users/brockbittner/.zprofile
+    echo 'eval "$(/opt/homebrew/bin/brew shellenv)"' >> /Users/brockbittner/.zprofile
+    eval "$(/opt/homebrew/bin/brew shellenv)"
+- Run brew help to get started
+
 I was then able to copy the following Terraform download command into the CLI and download it:
 ```markdown
 brew tap hashicorp/tap 
 brew install hashicorp/tap/terraform
 ```
 
-
-
+Now we can press on to [Topic 4: SSH](https://learntocloud.guide/phase1/ssh)!
 
