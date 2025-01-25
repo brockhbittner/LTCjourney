@@ -19,6 +19,7 @@ Getting familiar with GitHub and how it works is difficult, to say the least. I 
 >```markdown
 "git clone https://github.com/rishabkumar7/ltc-labs"
 ``` 
+
 into VSCode and received the following error: 
 >```markdown
 "xcrun: error: invalid active developer path (/Library/Developer/CommandLineTools), 
