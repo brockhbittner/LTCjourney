@@ -32,7 +32,7 @@ I tried installing Terraform but was unable to. The CLI was not recognizing the 
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 ``` 
 
-I was then able to copy the Terraform download command into the CLI and download it
+I was then able to copy the following Terraform download command into the CLI and download it:
 ```markdown
 brew tap hashicorp/tap 
 brew install hashicorp/tap/terraform
