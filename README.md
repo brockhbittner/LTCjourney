@@ -15,15 +15,19 @@ Getting familiar with GitHub and how it works is difficult, to say the least. I 
 
 > Then, I discovered VSCode and got that installed. However, the changes I was making were not showing up in GitHub for me to commit and push. After some reasearch I discovered the problem was that autosave was turned off. So in the VSCode settings I turned autosave to "on Focus Change." Now, whenever I click off VSCode to GitHub desktop, it automatically recognizes the changes that I have made. So problem solved! 
 
-> But not so fast! I then went to continue working through Topic 1: Version Control and I copied "git clone https://github.com/rishabkumar7/ltc-labs" into VSCode and received the following error: "xcrun: error: invalid active developer path (/Library/Developer/CommandLineTools), missing xcrun at: /Library/Developer/CommandLineTools/usr/bin/xcrun" 
+> But not so fast! I then went to continue working through [Topic 1: Version Control](https://learntocloud.guide/phase1/versioncontrol) and I copied "git clone https://github.com/rishabkumar7/ltc-labs" into VSCode and received the following error: "xcrun: error: invalid active developer path (/Library/Developer/CommandLineTools), missing xcrun at: /Library/Developer/CommandLineTools/usr/bin/xcrun" 
 
 > So I did some research on this and found that I needed to install some command line tools. I researched the command to initiate the download and copied it into VSCode: xcode-select --install 
 
 > Viola! 
 
-I was able to read through the [Microsoft document about Markdown](https://learn.microsoft.com/en-us/training/modules/communicate-using-markdown/2-what-is-markdown), which was really helpful. I tried to implement some of it here just to get some familiarity with it. I am going to stop here for now and pick back up later to continue working on Topic 2: Cloud CLI Setup another time. I already have an AWS account, so that gives me a good start on that!
+I was able to read through the [Microsoft document about Markdown](https://learn.microsoft.com/en-us/training/modules/communicate-using-markdown/2-what-is-markdown), which was really helpful. I tried to implement some of it here just to get some familiarity with it. I am going to stop here for now and pick back up later to continue working on [Topic 2: Cloud CLI Setup](https://learntocloud.guide/phase1/cli) another time. I already have an AWS account, so that gives me a good start on that!
 
 ## Day 2:
+
+I learned a lot from reading the [Command Line for Beginners article](https://www.freecodecamp.org/news/command-line-for-beginners/). I also got the AWS CLI downloaded, which means I am on to [Topic 3: Infrastructre as Code](https://learntocloud.guide/phase1/iac)!
+
+
 
 
 
