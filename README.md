@@ -51,5 +51,4 @@ brew tap hashicorp/tap
 brew install hashicorp/tap/terraform
 ```
 
-Now we can press on to [Topic 4: SSH](https://learntocloud.guide/phase1/ssh)!
-
+Next time I will press on to [Topic 4: SSH](https://learntocloud.guide/phase1/ssh)!
