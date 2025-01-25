@@ -21,17 +21,26 @@ xcrun: error: invalid active developer path (/Library/Developer/CommandLineTools
 missing xcrun at: /Library/Developer/CommandLineTools/usr/bin/xcrun
 ```     
 
-> Start an indented code block following a paragraph with a blank line and at least four spaces of indentation:
+Set multiple lines of code in fenced code blocks.
 
-    This is a code block.
+```
+action: function(ctx) {
+    workflow.check(!ctx.issue.isChanged('votes'), workflow.i18n('Voting for a resolved issue is not allowed.'));
+},
+```
 
-    Blank lines between indented lines do not end the code block.
+The following code block uses syntax highlighting for Haskell:
+```hs
+-- Point-free style
+fib :: Integer -> Integer
+fib = (fibs !!)
+where fibs = 0 : scanl (+) 1 fibs
 
-    Here is some HTML:
-        <div class="footer">
-             2009—2017 JetBrains · All rights reserved
-        </div>
-> This line of text is not indented. It ends the code block and starts a new paragraph.
+-- Explicit
+fib :: Integer -> Integer
+fib n = fibs !! n
+where fibs = 0 : scanl (+) 1 fibs
+```
 
 
 > So I did some research on this and found that I needed to install some command line tools. I researched the command to initiate the download and copied it into VSCode: `xcode-select --install`
