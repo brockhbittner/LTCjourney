@@ -9,7 +9,7 @@ These are my notes that I take on my journey to learn to cloud! Thank you so muc
 
 ## Day 1:
 
-Getting familiar with GitHub and how it works is difficult, to say the least. I am thankful that I have had at least some experience in the command line from my Google IT Support Specialist certification. Part of the problem was the technical difficulties that I encountered. Here is a description of how I worked through some of these problems:
+Getting familiar with GitHub and how it works is difficult, to say the least. I am thankful that I have had at least some experience in the command line from my Google IT Support Specialist certification. Part of the problem was the technical difficulties that I encountered. Here are the ways I worked through diagnosing and solving some of these problems:
 
 > First, GitHub Desktop was wanting me to use ATOM as my text editor, which I learned through some research was incompatible as it was sunsetted by Git a couple years back. 
 
