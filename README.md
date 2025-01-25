@@ -22,3 +22,8 @@ Getting familiar with GitHub and how it works is difficult, to say the least. I 
 > Viola! 
 
 I was able to read through the [Microsoft document about Markdown](https://learn.microsoft.com/en-us/training/modules/communicate-using-markdown/2-what-is-markdown), which was really helpful. I tried to implement some of it here just to get some familiarity with it. I am going to stop here for now and pick back up later to continue working on Topic 2: Cloud CLI Setup another time. I already have an AWS account, so that gives me a good start on that!
+
+## Day 2:
+
+
+
