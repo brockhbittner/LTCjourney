@@ -66,3 +66,8 @@ An error occurred (InvalidAccessKeyId) when calling the ListBuckets operation:
 The AWS Access Key Id you provided does not exist in our records.
 ```
 I am not sure why considering I followed all the directions: I went into IAM, set up a new user, and created an access key which generated an access key and a secret key. I then typed `aws configure` and copied and pasted the keys that I had just created, put  `us-east-2` for the default region name and `json` for the default output format. And yet I still received this error. I will have to try again tomorrow and figure out what is going on!
+
+## Day 4: 
+
+Thankfully I was able to figure out the problem! All I needed to do was restart VS Code and it allowed my credentials to work! I then faced a number of permission denied errors when trying to run the `terraform apply` but I was able to sort those out in IAM by applying some full access policies to my user. 
+
