@@ -69,5 +69,13 @@ I am not sure why considering I followed all the directions: I went into IAM, se
 
 ## Day 4: 
 
-Thankfully I was able to figure out the problem! All I needed to do was restart VS Code and it allowed my credentials to work! I then faced a number of permission denied errors when trying to run the `terraform apply` but I was able to sort those out in IAM by applying some full access policies to my user. 
+Thankfully I was able to figure out the problem! All I needed to do was restart VS Code and it allowed my credentials to work! Sometimes it really is that simple lol! I then faced a number of permission denied errors when trying to run the `terraform apply` but I was able to sort those out in IAM by applying some full access policies to my user. 
+
+So now the challenges begin! 
+
+### Challenge 1: Find a hidden file
+
+In order to find the hidden file in the directory I used the `ls -a` command to list all the files including hidden ones, and I was able to find `.hidden_flag` which containted `CTF{hidden_files_revealed}`! 
+
+### Challenge 2: Locate a file with "secret" in its name
 
