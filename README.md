@@ -62,6 +62,7 @@ On to the [Linux Command Line CTF Challenge](https://learntocloud.guide/phase1/c
 
 Or so I thought... lol! I discovered after probably way too long that I had not configured my AWS CLI properly back in the [second topic](https://learntocloud.guide/phase1/cli). I am trying to get this fixed, but I will have to resume tomorrow. I am getting this error: 
 ```Markdown
-An error occurred (InvalidAccessKeyId) when calling the ListBuckets operation: The AWS Access Key Id you provided does not exist in our records.
+An error occurred (InvalidAccessKeyId) when calling the ListBuckets operation: 
+The AWS Access Key Id you provided does not exist in our records.
 ```
 I am not sure why considering I followed all the directions: I went into IAM, set up a new user, and created an access key which generated an access key and a secret key. I then typed `aws configure` and copied and pasted the keys that I had just created, put  `us-east-2` for the default region name and `json` for the default output format. And yet I still received this error. I will have to try again tomorrow and figure out what is going on!
