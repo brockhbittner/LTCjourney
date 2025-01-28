@@ -71,7 +71,7 @@ I am not sure why considering I followed all the directions: I went into IAM, se
 
 Thankfully I was able to figure out the problem! All I needed to do was restart VS Code and it allowed my credentials to work! Sometimes it really is that simple lol! I then faced a number of permission denied errors when trying to run the `terraform apply` but I was able to sort those out in IAM by applying some full access policies to my user. 
 
-So now the challenges begin! 
+So now the challenges begin! As a preface, Microsoft Copilot was very helpful in this and taught me a lot about how to navigate and solve these problems. 
 
 ### Challenge 1: Find a hidden file
 
@@ -86,4 +86,6 @@ For this I used `find -name "*secret*"` to find `very secret_file.txt`. However,
 For this I did `du -ah /home/ctf_user | sort -rh`. The output showed me a list of files and directories and their corresponding file sizes. `-a` shows all and `-h` puts the file sizes in a human readable format. Then I piped the results through `sort` to arrange then in reverse order (`-r`) and again in human readable format (`-h`). 
 
 ### Challenge 4: Identify a user with a specific UID
+
+I used the `cd /etc` command to find the `passwd` file which I opened and found that the 1002 user is `flag_user`. I then did `sudo -i -u flag_user` and input the password for the ctf_user account. Then I did the `ls` command and found `flag.txt` in which was `CTF{user_detective}`!
 
