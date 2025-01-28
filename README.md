@@ -79,3 +79,11 @@ In order to find the hidden file in the directory I used the `ls -a` command to 
 
 ### Challenge 2: Locate a file with "secret" in its name
 
+For this I used `find -name "*secret*"` to find `very secret_file.txt`. However, since the CTF file is called  `CTF{grep_is_your_friend}`, the grep version of this would be `find | grep "secret"`. 
+
+### Challenge 3: Find the largest file in a specific directory
+
+For this I did `du -ah /home/ctf_user | sort -rh`. The output showed me a list of files and directories and their corresponding file sizes. `-a` shows all and `-h` puts the file sizes in a human readable format. Then I piped the results through `sort` to arrange then in reverse order (`-r`) and again in human readable format (`-h`). 
+
+### Challenge 4: Identify a user with a specific UID
+
