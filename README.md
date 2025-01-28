@@ -52,3 +52,16 @@ brew install hashicorp/tap/terraform
 ```
 
 Next time I will press on to [Topic 4: SSH](https://learntocloud.guide/phase1/ssh)!
+
+
+## Day 3: 
+
+Man [this SSH exercise](https://learn.microsoft.com/en-us/training/modules/develop-on-remote-machine/) was a doozy to figure out! I had a hard time figuring out how to correctly describe the file path to the .pem file so that it could check the public and private key. Eventually I was able to use the `pwd` command to find the correct path and then append the .pem file name to it and it worked! This took me a lot longer than it should have, but honestly I learned a lot so I am grateful for the time it took! We often remember things best when we have to wrestle to figure out the conclusion rather than having the answer handed to us. 
+
+On to the [Linux Command Line CTF Challenge](https://learntocloud.guide/phase1/ctf)!
+
+Or so I thought... lol! I discovered after probably way too long that I had not configured my AWS CLI properly back in the [second topic](https://learntocloud.guide/phase1/cli). I am trying to get this fixed, but I will have to resume tomorrow. I am getting this error: 
+```Markdown
+An error occurred (InvalidAccessKeyId) when calling the ListBuckets operation: The AWS Access Key Id you provided does not exist in our records.
+```
+I am not sure why considering I followed all the directions: I went into IAM, set up a new user, and created an access key which generated an access key and a secret key. I then typed `aws configure` and copied and pasted the keys that I had just created, put  `us-east-2` for the default region name and `json` for the default output format. And yet I still received this error. I will have to try again tomorrow and figure out what is going on!
