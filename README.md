@@ -71,21 +71,33 @@ I am not sure why considering I followed all the directions: I went into IAM, se
 
 Thankfully I was able to figure out the problem! All I needed to do was restart VS Code and it allowed my credentials to work! Sometimes it really is that simple lol! I then faced a number of permission denied errors when trying to run the `terraform apply` but I was able to sort those out in IAM by applying some full access policies to my user. 
 
-So now the challenges begin! As a preface, Microsoft Copilot was very helpful in this and taught me a lot about how to navigate and solve these problems. 
+So now the challenges begin!  As a preface, Microsoft Copilot was very helpful in this and taught me a lot about how to navigate and solve these problems. I won't list the solutions to these problems, but instead I will describe some important things that I learned or practiced in each of them as well as the skills needed to accomplish the challenge. 
 
-### Challenge 1: Find a hidden file
+### Beginner Level
 
-In order to find the hidden file in the directory I used the `ls -a` command to list all the files including hidden ones, and I was able to find `.hidden_flag` which containted `CTF{hidden_files_revealed}`! 
+#### Challenge 1: Find a hidden file
 
-### Challenge 2: Locate a file with "secret" in its name
+**Skills:** Basic file listing, hidden files concept
 
-For this I used `find -name "*secret*"` to find `very secret_file.txt`. However, since the CTF file is called  `CTF{grep_is_your_friend}`, the grep version of this would be `find | grep "secret"`. 
+This one was relatively simple, since it required basic commands and flags for navigating the directories. 
 
-### Challenge 3: Find the largest file in a specific directory
+#### Challenge 2: Locate a file with "secret" in its name
 
-For this I did `du -ah /home/ctf_user | sort -rh`. The output showed me a list of files and directories and their corresponding file sizes. `-a` shows all and `-h` puts the file sizes in a human readable format. Then I piped the results through `sort` to arrange then in reverse order (`-r`) and again in human readable format (`-h`). 
+**Skills:** File searching, directory navigation
 
-### Challenge 4: Identify a user with a specific UID
+This one was a good refresher and I learned about how to search for words in a file name instead of just words contained in files. 
 
-I used the `cd /etc` command to find the `passwd` file which I opened and found that the 1002 user is `flag_user`. I then did `sudo -i -u flag_user` and input the password for the ctf_user account. Then I did the `ls` command and found `flag.txt` in which was `CTF{user_detective}`!
+### Intermediate Level
+
+#### Challenge 3: Find the largest file in a specific directory
+
+**Skills:** File size analysis, sorting, log navigation
+
+This one was a little bit tricky as it required piping commands together. I played around with it some to get a better grasp of different flags and how that affects the way information is displayed. I learned a lot from this!
+
+#### Challenge 4: Identify a user with a specific UID
+
+**Skills:** User management, system files, permissions
+
+This one was tricky! I was not very familiar with how to accomplish this challenge, so it was helpful to do my best to navigate to the relevant directories and files to find the information I needed. Copilot was helpful here and I feel like I am much more comfortable with User Management from the CLI now. 
 
