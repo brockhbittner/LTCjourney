@@ -77,27 +77,27 @@ So now the challenges begin!  As a preface, Microsoft Copilot was very helpful i
 
 #### Challenge 1: Find a hidden file
 
-**Skills:** Basic file listing, hidden files concept
+>**Skills:** Basic file listing, hidden files concept
 
-This one was relatively simple, since it required basic commands and flags for navigating the directories. 
+>This one was relatively simple, since it required basic commands and flags for navigating the directories. 
 
 #### Challenge 2: Locate a file with "secret" in its name
 
-**Skills:** File searching, directory navigation
+>**Skills:** File searching, directory navigation
 
-This one was a good refresher and I learned about how to search for words in a file name instead of just words contained in files. 
+>This one was a good refresher and I learned about how to search for words in a file name instead of just words contained in files. 
 
 ### Intermediate Level
 
 #### Challenge 3: Find the largest file in a specific directory
 
-**Skills:** File size analysis, sorting, log navigation
+>**Skills:** File size analysis, sorting, log navigation
 
-This one was a little bit tricky as it required piping commands together. I played around with it some to get a better grasp of different flags and how that affects the way information is displayed. I learned a lot from this!
+>This one was a little bit tricky as it required piping commands together. I played around with it some to get a better grasp of different flags and how that affects the way information is displayed. I learned a lot from this!
 
 #### Challenge 4: Identify a user with a specific UID
 
-**Skills:** User management, system files, permissions
+>**Skills:** User management, system files, permissions
 
-This one was tricky! I was not very familiar with how to accomplish this challenge, so it was helpful to do my best to navigate to the relevant directories and files to find the information I needed. Copilot was helpful here and I feel like I am much more comfortable with User Management from the CLI now. 
+>This one was tricky! I was not very familiar with how to accomplish this challenge, so it was helpful to do my best to navigate to the relevant directories and files to find the information I needed. Copilot was helpful here and I feel like I am much more comfortable with User Management from the CLI now. 
 
