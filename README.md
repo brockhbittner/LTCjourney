@@ -1,6 +1,6 @@
 # Learn to Cloud Challenge
 
-My name is Brock Bittner, I am an aspiring IT Support Specialist and Cloud Engineer! 
+My name is Brock Bittner, I am an IT Support Specialist.
 
 You can find me on linkedin: https://www.linkedin.com/in/brock-bittner-657020198/
 
